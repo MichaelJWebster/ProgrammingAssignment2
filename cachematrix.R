@@ -1,6 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
+## The functions makeCacheMatrix and solveCacheMatrix allow the caching of
+## matrix inversion calculations so that subsequent references to the inverse
+## of a matrix doensnt have to recalculate the inverse from scratch.
 ##
 ## makeCacheMatrix is initialised with an invertible matrix. and returns a
 ## list of functions for setting the matrix, getting the matrix, setting the
